@@ -135,7 +135,7 @@ class Robot {
   normaliseCommand(cmd) {
     let command = cmd.toUpperCase(); //Normalise Input
 
-    let separator = command.includes("|" || "-");
+    let separator = command.includes("|");
     let initialized = command.includes("PLACE", 0);
     let reported = command.includes("REPORT");
 
