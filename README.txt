@@ -2,7 +2,7 @@
 
 ***It only runs in console
 
-1. Go to project folder /iselect-exercise
+1. Go to project folder /iselect-exam
 2. RUN npm install
 3. RUN npm start
 4. Supply necessary "INPUT:"
