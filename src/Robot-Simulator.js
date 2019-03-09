@@ -71,9 +71,6 @@ class Robot {
       sequence[i] === "MOVE" ? moves++ : moves;
     }
 
-    if (moves > 4) {
-      throw new Error("Invalid move, can't accept more than 4 moves");
-    }
     return moves;
   }
 
