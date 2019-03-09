@@ -1,0 +1,19 @@
+{
+  "name": "iselect-excercise",
+  "version": "1.0.0",
+  "description": "code challenge",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "put git repo here"
+  },
+  "author": "shinmarq",
+  "license": "ISC",
+  "dependencies": {
+    "readline": "^1.3.0"
+  }
+}
