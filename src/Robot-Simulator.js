@@ -113,8 +113,15 @@ class Robot {
 
   //Initial positioning
   setPosition(currentPos) {
+    let direction = ["NORTH", "EAST", "WEST", "SOUTH"];
     let [place, coordinates] = currentPos.split(" ");
     let [posX, posY, initFacing] = coordinates.split(",");
+
+    if (posX > 4 || posX < 0)
+      throw new Error("Invalid input X, please put between 0-4");
+    if (posY > 4 || posY < 0)
+      throw new Error("Invalid input Y, please put between 0-4");
+    if (!direction.includes(initFacing)) throw new Error("Invalid facing.");
 
     return { posX, posY, initFacing };
   }
